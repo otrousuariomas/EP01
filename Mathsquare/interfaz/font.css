@@ -1,0 +1,41 @@
+body
+{
+    background: #61D0F8;
+    font-family: 150% sans-serif;
+    font-size: 18px;
+}
+.text
+{
+  color: #660F00;
+}
+#chess_board td
+{
+	text-align:center;
+	vertical-align:center;
+	border: 3px solid blue;
+    text-align: center;
+    font-size: 1em;
+	background:#FFEF00;
+	background:-moz-linear-gradient(top, #FFEF00, #C9C365);
+	background:-webkit-gradient(linear,0 0, 0 100%, from(#FFEF00), to(#C9C365));
+	font-family: 150% sans-serif;
+	font-weight: bold;
+	/*cursor: pointer;*/
+}
+
+#chess_board tr:nth-child(odd) td:nth-child(even),
+#chess_board tr:nth-child(even) td:nth-child(odd)
+{
+	background:#29ECD9;
+	background:-moz-linear-gradient(top, #29ECD9, #37A99E);
+	background:-webkit-gradient(linear,0 0, 0 100%, from(#29ECD9), to(#37A99E));
+
+}
+input
+{
+    width: 40px;
+    font-size: 1em;
+    text-align: center;
+    border: 10px solid violet;
+    height: 40px;
+}
