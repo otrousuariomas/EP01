@@ -33,7 +33,7 @@ window.onload = function()
           {
             for (var j=0; j<solve.length;j++)
             {
-              if(sudoku. === solve){
+              if(sudoku === solve){
                 for (var k=0; k<sudoku.length;k++){
                   if(k === sudoku){
                     alert("sudoku resuelto");
